@@ -1,8 +1,5 @@
-<div align=center>
-<h1><strong>基于Electron实现的WhatsApp，Telegram多账号管理工具</strong></h1>
-</div>
-<br>
-
+# WhatsApp，Telegram多账号管理工具
+WhatsApp 多账号管理， Telegram 多账号管理，whatsapp实时翻译。
 ## 项目架构
 - 桌面端：electron-egg
 - 翻译端：Spring Boot 2.6.4 、 Mybatis-Plus、 JWT、Spring Security、Redis、Vue的前后端分离的后台管理系统
