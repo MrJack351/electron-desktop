@@ -27,6 +27,7 @@ WhatsApp 多账号管理， Telegram 多账号管理，whatsapp实时翻译。
 - 新消息通知
  ![新消息通知](images/new-message-notify.png)
 ### 后台翻译端
+- 仓库地址：https://github.com/MrJack351/translate-admin.git
 - 授权管理（新用户自动登录默认会赠送3天授权，如有需求可自行在源码修改）
  ![授权管理](images/auth-manage.png)
 - 翻译记录管理（主要用于消息缓存，节省翻译api调用量）
