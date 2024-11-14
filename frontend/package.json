@@ -1,0 +1,28 @@
+{
+  "name": "seaToolbox",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host --port 8080",
+    "serve": "vite --host --port 8080",
+    "build-staging": "vite build --mode staging",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.8.6",
+    "jsencrypt": "^3.3.2",
+    "vue": "^3.2.33",
+    "vue-echarts": "^7.0.3",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compiler-sfc": "^3.2.33",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "terser": "^5.19.1",
+    "vite": "^4.4.4"
+  }
+}

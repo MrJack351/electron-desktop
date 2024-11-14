@@ -1,0 +1,10 @@
+node_modules
+out/
+logs/
+run/
+.idea/
+package-lock.json
+data/
+.vscode/launch.json
+public/electron/
+pnpm-lock.yaml
