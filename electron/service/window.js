@@ -287,15 +287,17 @@ class WindowService extends Service {
             view.setBounds({ x: 291, y: 0, width: width - 289, height });
         }
     }
-    _applyProxySettings(webContents, config) {
+    async _applyProxySettings(webContents, config) {
         if (!webContents) {
             Log.error('webContents 是必须的');
             return;
         }
         // 如果没有传入 config，删除现有的代理设置
         if (!config) {
-            Log.info('未提供 config，删除现有的代理设置');
-            webContents.session.setProxy({ proxyRules: '' }, () => {
+            Log.info('当前会话未提供代理config，删除现有的代理设置');
+            webContents.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
+            webContents.session.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", "zh-CN")
+            await webContents.session.setProxy({proxyRules: '',mode: 'system'}, () => {
                 Log.info('代理设置已删除');
             });
             return;
@@ -307,7 +309,7 @@ class WindowService extends Service {
             if (!config[field] || config[field].trim() === '') {
                 Log.warn(`代理配置缺失或无效: ${field} 是必须的`);
                 // 删除原有的代理设置
-                webContents.session.setProxy({ proxyRules: '' }, () => {
+                webContents.session.setProxy({proxyRules: ''}, () => {
                     Log.info('代理设置已删除');
                 });
                 return;
@@ -341,7 +343,7 @@ class WindowService extends Service {
         Log.info('配置代理：', proxyConfig);
 
         // 将代理设置到 webContents 的 session 中
-        webContents.session.setProxy({ proxyRules: proxyConfig }, () => {
+        await webContents.session.setProxy({proxyRules: proxyConfig}, () => {
             Log.info(`代理设置为: ${proxyConfig}`);
         });
 
@@ -455,11 +457,11 @@ class WindowService extends Service {
 
         // 设置代理（仅在代理信息完整时）
         if (config.proxyStatus === 'true' && config.proxyType && config.host && config.port) {
-            this._applyProxySettings(view.webContents, config);
+            await this._applyProxySettings(view.webContents, config);
             Log.info('代理配置已应用:', { proxyType: config.proxyType, host: config.host, port: config.port, username: config.username });
         } else {
             // 如果没有代理信息，则清除代理设置
-            this._applyProxySettings(view.webContents, null);
+            await this._applyProxySettings(view.webContents, null);
             Log.info('代理配置已清除');
         }
 
