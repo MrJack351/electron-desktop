@@ -28,11 +28,11 @@ class UpdaterService extends Service {
         }
         const config = {
             // CDN 目录url 如果 https 无法下载，换成 http
-            url: 'http://smovh80ak.hn-bkt.clouddn.com/update/',
+            url: '',
             // 如果有特殊平台，可以指定一个固定的 json 文件
             // urlFile: 'incremental-latest-xxx.json',
             // 密钥
-            token: 'T_6V1fR9yB1kN2h',
+            token: '',
             // debug: false,
         };
         // 设置配置
