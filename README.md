@@ -31,61 +31,52 @@
 <a id="功能特点"></a>
 ## 功能特点
 
-- 架构优化，客户端代码重构，运行效率更高；开发更便捷
+- ws；tg消息智能同步
+- 违禁词拦截发送
 - 客户端多语言支持
-- 单体版本，翻译服务可本地配置 API (更好保障隐私)
-- 团队版本，适合团队使用后台可管理多个设备
-- 页面布局优化，更清晰合理的 UI 布局；用户使用体验更好
+- 全新客户端 UI 优化多会话体验
 - 多会话脚本优化；翻译支持实时显示
-- 可对接多个社交聊天平台；脚本规范模块化接入平台更快
+- 内核级别指纹支持
+- socks代理支持
 
 <a id="下载体验"></a>
-## 下载体验
-
-- **邀请码**：w0ndFe31n7iaF7woRIKN1OlI0g4wntdh
-- **下载地址（Windows）**：https://wwbp.lanzouw.com/iZdLx2rp4dvi  
-  密码: 3aei
+## 最新版本下载体验联系
+- **Telegram**: [@LinkSengs](https://t.me/LinkSengs) 
 
 ### 界面预览
 
 - **登录页面**  
-  ![登录页面](images/server/login.png)
+  ![登录页面](images/nexachat/login.png)
 
 - **首页**  
-  ![首页](images/server/home.png)
-  ![首页2](images/server/home2.png)
+  ![首页](images/nexachat/home.png)
 
 <a id="会话管理"></a>
 ### 会话管理
 
 - **WhatsApp 会话管理**  
-  ![ws](images/server/ws.png)
+  ![ws](images/nexachat/ws.png)
 
 - **Telegram 会话管理**  
-  ![tg](images/server/tg.png)
+  ![tg](images/nexachat/tg.png)
 
-<a id="会话代理设置"></a>
+<a id="指纹代理设置"></a>
 ### 会话代理设置
-![proxySetting](images/server/proxySetting.png)
+![proxySetting1](images/nexachat/zhiwen1.png)
+![proxySetting2](images/nexachat/zhiwen2.png)
+![proxySetting3](images/nexachat/zhiwen3.png)
 
 <a id="双向聊天实时翻译"></a>
 ### 双向聊天实时翻译
-![translate](images/server/translate.png)
+![translate](images/nexachat/translate.png)
 
 <a id="用户画像"></a>
 ### 用户画像
-![userInfo](images/server/userInfo.png)
+![userInfo](images/nexachat/userInfo.png)
 
 <a id="快捷回复"></a>
 ### 快捷回复
-![quickReply](images/server/quickReply.png)
-
-#### 快捷发送
-![quickReply2](images/server/quickReply2.png)
-
-<a id="本地翻译接入"></a>
-## 本地翻译接入
-![localTranslate](images/server/localTranslate.png)
+![quickReply](images/nexachat/quk.png)
 
 ---
 
@@ -185,4 +176,4 @@ WhatsApp 多账号管理、Telegram 多账号管理、WhatsApp 实时翻译
 
 如有问题或需要帮助，欢迎通过以下方式联系：
 
-- **Telegram**: [@JackSengs](https://t.me/JackSengs)
+- **Telegram**: [@LinkSengs](https://t.me/LinkSengs)
