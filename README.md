@@ -72,7 +72,7 @@
 
 <a id="用户画像"></a>
 ### 用户画像
-![userInfo](images/nexachat/userInfo.png)
+![userInfo](images/nexachat/userinfo.png)
 
 <a id="快捷回复"></a>
 ### 快捷回复
