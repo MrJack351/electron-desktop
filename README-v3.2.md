@@ -2,7 +2,7 @@
 
 NexaChat 是面向 WhatsApp、Telegram 等平台的多账号桌面工作台。3.2 版已完成客户端重构：统一工作台管理多个平台与会话，并将会话浏览器、账号配置和工作台工具整合到一套界面中。
 
-> **全套源码交付 · 定制化部署**：支持自主维护与二次开发，可按品牌和业务需求沟通部署及定制方案。咨询请联系 Telegram：[@zhonghe785](https://t.me/zhonghe785)。
+> **全套源码交付 · 定制化部署**：支持自主维护与二次开发，可按品牌和业务需求沟通部署及定制方案。咨询请联系 Telegram：[@zhonghe785](https://t.me/zhonghe785) 或 [@LinkSengs](https://t.me/LinkSengs)。
 
 ## 功能概览
 
@@ -55,7 +55,7 @@ NexaChat 是面向 WhatsApp、Telegram 等平台的多账号桌面工作台。3.
 
 ## 项目结构
 
-新版客户端代码位于独立的 [NexaChat 仓库](https://github.com/LinguaBridge-scrm/nexa-chat) 中，主要目录如下：
+新版客户端主要目录如下：
 
 | 目录 | 用途 |
 |---|---|

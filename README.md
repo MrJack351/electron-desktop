@@ -4,7 +4,7 @@ NexaChat 用于集中管理 WhatsApp、Telegram 等平台账号，并提供独�
 
 本页汇总 **3.2 重构版、旧版付费客户端、免费开源版**。三个版本分别说明，便于按功能需求选择和查阅；旧版截图与介绍保留在下方对应章节。
 
-> **全套源码交付 · 定制化部署**：支持自主维护与二次开发，可按品牌和业务需求沟通部署及定制方案。咨询请联系 Telegram：[@zhonghe785](https://t.me/zhonghe785)。
+> **全套源码交付 · 定制化部署**：支持自主维护与二次开发，可按品牌和业务需求沟通部署及定制方案。咨询请联系 Telegram：[@zhonghe785](https://t.me/zhonghe785) 或 [@LinkSengs](https://t.me/LinkSengs)。
 
 [查看 3.2](#新版32) · [对比三个版本](#版本对比) · [旧版付费](#付费版本) · [免费开源](#免费版本) · [源码与定制部署](#源码与部署) · [联系咨询](#联系方式)
 
@@ -114,7 +114,7 @@ NexaChat 用于集中管理 WhatsApp、Telegram 等平台账号，并提供独�
 
 ### 项目结构
 
-新版客户端代码位于独立的 [NexaChat 仓库](https://github.com/LinguaBridge-scrm/nexa-chat) 中，主要目录如下：
+新版客户端主要目录如下：
 
 | 目录 | 用途 |
 |---|---|
@@ -167,8 +167,6 @@ npm run dev
 - **更新与维护**：客户端应用内更新、后台下载、断点续传和安装前校验，平台脚本云端更新、诊断包导出与缓存清理。
 
 平台由 `platforms.json` 和适配脚本 / 插件配置。所提供清单默认显示 Telegram、WhatsApp 和 Google，其他入口部分默认隐藏；翻译、画像、快捷回复与素材等工具按平台能力显示。右侧面板文档列出的入口为会话配置、翻译、画像、快捷回复和素材。
-
-对应源码与完整说明见[旧版 NexaChat 仓库](https://gitee.com/wwba_python_admin/nexa-chat)中的 `README.md`、`PLATFORM_INTEGRATION.md`、`PACKAGING.md` 与 `RELEASE_COMPATIBILITY_NOTES.md`。
 
 ### 历史介绍与原始截图
 
