@@ -1,0 +1,161 @@
+[
+  {
+    "name": "home--zh-CN--light--1440x900",
+    "platform": "win32",
+    "state": "home",
+    "screen": "S05 S06",
+    "owner": "S1",
+    "route": "#/home",
+    "expectConsole": [],
+    "locale": "zh-CN",
+    "theme": "light",
+    "width": 1440,
+    "height": 900,
+    "file": "home--zh-CN--light--1440x900.png",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "ms": 3070,
+    "consoleErrors": [],
+    "stepError": null,
+    "issues": [],
+    "pageErrors": [],
+    "nativeView": null
+  },
+  {
+    "name": "workbench-translate--zh-CN--light--1440x900",
+    "platform": "win32",
+    "state": "workbench-translate",
+    "screen": "S07 S08 S09 S10 S11 S24",
+    "owner": "S3",
+    "route": "#/workspace/whatsapp",
+    "expectConsole": [],
+    "locale": "zh-CN",
+    "theme": "light",
+    "width": 1440,
+    "height": 900,
+    "file": "workbench-translate--zh-CN--light--1440x900.png",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "ms": 3255,
+    "consoleErrors": [],
+    "stepError": null,
+    "issues": [],
+    "pageErrors": [],
+    "nativeView": {
+      "x": 296,
+      "y": 40,
+      "width": 840,
+      "height": 836
+    }
+  },
+  {
+    "name": "workbench-portrait--zh-CN--light--1440x900",
+    "platform": "win32",
+    "state": "workbench-portrait",
+    "screen": "S12",
+    "owner": "S4",
+    "route": "#/workspace/whatsapp",
+    "expectConsole": [],
+    "locale": "zh-CN",
+    "theme": "light",
+    "width": 1440,
+    "height": 900,
+    "file": "workbench-portrait--zh-CN--light--1440x900.png",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "ms": 3296,
+    "consoleErrors": [],
+    "stepError": null,
+    "issues": [],
+    "pageErrors": [],
+    "nativeView": {
+      "x": 296,
+      "y": 40,
+      "width": 840,
+      "height": 836
+    }
+  },
+  {
+    "name": "workbench-quick--zh-CN--light--1440x900",
+    "platform": "win32",
+    "state": "workbench-quick",
+    "screen": "S13",
+    "owner": "S4",
+    "route": "#/workspace/whatsapp",
+    "expectConsole": [],
+    "locale": "zh-CN",
+    "theme": "light",
+    "width": 1440,
+    "height": 900,
+    "file": "workbench-quick--zh-CN--light--1440x900.png",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "ms": 3282,
+    "consoleErrors": [],
+    "stepError": null,
+    "issues": [],
+    "pageErrors": [],
+    "nativeView": {
+      "x": 296,
+      "y": 40,
+      "width": 840,
+      "height": 836
+    }
+  },
+  {
+    "name": "session-config-proxy-open--zh-CN--light--1440x900",
+    "platform": "win32",
+    "state": "session-config-proxy-open",
+    "screen": "S15",
+    "owner": "S5",
+    "route": "#/workspace/whatsapp",
+    "expectConsole": [],
+    "locale": "zh-CN",
+    "theme": "light",
+    "width": 1440,
+    "height": 900,
+    "file": "session-config-proxy-open--zh-CN--light--1440x900.png",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "ms": 4507,
+    "consoleErrors": [],
+    "stepError": null,
+    "issues": [],
+    "pageErrors": [],
+    "nativeView": null
+  },
+  {
+    "name": "settings-proxy--zh-CN--light--1440x900",
+    "platform": "win32",
+    "state": "settings-proxy",
+    "screen": "S17",
+    "owner": "S6",
+    "route": "#/settings/proxy",
+    "expectConsole": [],
+    "locale": "zh-CN",
+    "theme": "light",
+    "width": 1440,
+    "height": 900,
+    "file": "settings-proxy--zh-CN--light--1440x900.png",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "ms": 1634,
+    "consoleErrors": [],
+    "stepError": null,
+    "issues": [],
+    "pageErrors": [],
+    "nativeView": null
+  }
+]
