@@ -4,6 +4,10 @@ NexaChat 是面向 WhatsApp、Telegram 等平台的多账号桌面工作台。3.
 
 > **全套源码交付 · 定制化部署**：支持自主维护与二次开发，可按品牌和业务需求沟通部署及定制方案。咨询请联系 Telegram：[@zhonghe785](https://t.me/zhonghe785) 或 [@LinkSengs](https://t.me/LinkSengs)。
 
+## 最新版下载体验
+
+访问 [Flowglot](https://www.flowglot.com/) 获取最新版客户端的下载与体验入口。
+
 ## 功能概览
 
 - **多平台、多账号会话**：在一个工作台中切换平台、创建和管理多个独立会话；会话支持启动、停止、批量操作与状态查看。
