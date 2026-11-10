@@ -1,12 +1,12 @@
-# NexaChat · 多平台多账号管理与聊天工作台
+# NexaChat（畅语出海）· 多开翻译器：多平台多账号管理与聊天工作台
 
-NexaChat 用于集中管理 WhatsApp、Telegram 等平台账号，并提供独立会话环境与聊天辅助工具。当前最新客户端为 **3.2.0**，已完成架构和界面重构。
+NexaChat（中文名「畅语出海」，英文名 Flowglot）是多开翻译器：集中管理 WhatsApp、Telegram、LINE、Signal、Instagram、Messenger、TikTok 等平台账号，每个账号有独立会话环境，收发消息自动翻译。当前最新客户端为 **3.29.0**，在 3.2 重构版的基础上增加了聚合收件箱、云端环境、AI 接管、群发和重复粉标记等功能。
 
 本页汇总 **3.2 重构版、旧版付费客户端、免费开源版**。三个版本分别说明，便于按功能需求选择和查阅；旧版截图与介绍保留在下方对应章节。
 
 > **全套源码交付 · 定制化部署**：支持自主维护与二次开发，可按品牌和业务需求沟通部署及定制方案。咨询请联系 Telegram：[@zhonghe785](https://t.me/zhonghe785) 或 [@LinkSengs](https://t.me/LinkSengs)。
 
-[最新版下载体验](https://www.flowglot.com/) · [查看 3.2](#新版32) · [对比三个版本](#版本对比) · [旧版付费](#付费版本) · [免费开源](#免费版本) · [源码与定制部署](#源码与部署) · [联系咨询](#联系方式)
+[最新版下载体验](https://www.flowglot.com/?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop) · [安装包 Releases](https://github.com/TgolMsk/nexachat/releases/latest) · [使用教程](https://www.flowglot.com/guides?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop) · [查看 3.2](#新版32) · [对比三个版本](#版本对比) · [旧版付费](#付费版本) · [免费开源](#免费版本) · [源码与定制部署](#源码与部署) · [联系咨询](#联系方式)
 
 <a id="版本对比"></a>
 
@@ -53,7 +53,19 @@ NexaChat 用于集中管理 WhatsApp、Telegram 等平台账号，并提供独�
 
 ### 最新版下载体验
 
-访问 [Flowglot](https://www.flowglot.com/) 获取最新版客户端的下载与体验入口。
+访问 [Flowglot 官网](https://www.flowglot.com/?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop) 获取最新版客户端的下载与体验入口；安装包和校验值也发布在 [TgolMsk/nexachat 的 Releases](https://github.com/TgolMsk/nexachat/releases/latest)。
+
+### 3.2 之后新增的功能（当前 3.29.0）
+
+- **平台**：新增 Signal、Instagram、Facebook / Messenger。教程：[Signal 多开](https://www.flowglot.com/guides/signal-multiple-accounts?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop)、[Instagram 和 Messenger 私信翻译](https://www.flowglot.com/guides/instagram-messenger-translation?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop)。
+- **聚合收件箱**：WhatsApp、Telegram、Signal、Instagram 多个账号的消息合并到一个列表里查看和回复。教程：[聚合收件箱](https://www.flowglot.com/guides/unified-inbox?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop)。
+- **云端环境**：已登录的账号连同指纹、代理上传云端，移交给同事或换电脑领取，Mac 与 Windows 互通。教程：[云端环境](https://www.flowglot.com/guides/cloud-environment-handover?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop)。
+- **AI 回复与接管**：按角色和知识库生成回复，接管后自动用客户的语言回复。教程：[AI 接管](https://www.flowglot.com/guides/ai-takeover?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop)。
+- **群发**：WhatsApp、Telegram、LINE 按号码、联系人、群组群发，可定时。教程：[群发](https://www.flowglot.com/guides/broadcast-messages?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop)。
+- **进粉统计与重复粉**：按账号统计每日新增联系人，标出已在团队其他账号进过粉的人。教程：[进粉统计与重复粉](https://www.flowglot.com/guides/fan-stats-duplicate-fans?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop)。
+- **其他**：快捷回复侧边栏与 Excel 导入、掉线提醒、应用锁，界面语言增加日语、韩语、缅语、泰语。
+
+入门教程：[多开翻译器是什么](https://www.flowglot.com/guides/multi-account-translator?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop) · [WhatsApp 多开](https://www.flowglot.com/guides/whatsapp-multiple-accounts?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop) · [WhatsApp 翻译](https://www.flowglot.com/guides/whatsapp-translation?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop) · [Telegram 多开](https://www.flowglot.com/guides/telegram-multiple-accounts?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop) · [下载与安装](https://www.flowglot.com/guides/download-and-install?utm_source=github&utm_medium=readme&utm_campaign=electron-desktop)
 
 ### 功能概览
 
